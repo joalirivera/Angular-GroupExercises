@@ -7,7 +7,7 @@ GatherCardsController.$inject = ["CardFactory"];
 GatherCards2Controller.$inject = ["CardFactory"];
 
 function GatherCardsController (CardFactory){
-    console.log('doyouworkdoe?');
+    console.log('doyouwork?');
     var Gcards = this;
  Gcards.cards = CardFactory.CardList;
 console.log('do YOU WORK?');
